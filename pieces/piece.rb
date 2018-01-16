@@ -3,4 +3,12 @@ class Piece
 
   end
 
+  def valid_moves
+
+  end
+
+  def empty?
+
+  end 
+
 end

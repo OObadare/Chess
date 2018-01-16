@@ -1,10 +1,11 @@
 require 'byebug'
-require 'pieces'
+require_relative 'pieces'
 
 class Board
   attr_reader :rows
-  def initialize(make_grid? = true)
-    make_starting_grid(make_grid?)
+
+  def initialize(make_grid = true)
+    make_starting_grid(make_grid)
 
   end
 
